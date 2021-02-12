@@ -16,7 +16,7 @@ This article is a list of definitions for key terms and concepts related to MSIX
 
 ## MSIX container
 
-An MSIX container is where MSIX apps are run. To learn more, see [MSIX containers](/windows/msix/msix-container).
+An MSIX container is where MSIX apps are run. To learn more, see [MSIX container](/windows/msix/msix-container). 
 
 ## MSIX application 
 
