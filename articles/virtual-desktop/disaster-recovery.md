@@ -116,7 +116,7 @@ To configure the registry entries:
 
 If the first location is unavailable, the FSLogix agent will automatically fail over to the second, and so on.
 
-We recommend you configure the FSLogix agent with a path to the secondary location in the main region. Once the primary location shuts down, the FLogix agent will replicate as part of the VM Azure Site Recovery replication. Once the replicated VMs are ready, the agent will automatically attempt to path to the secondary region.
+We recommend you configure the FSLogix agent with both the primary and secondary location paths on the main region Session Hosts. Once the primary location shuts down, the FLogix agent will replicate as part of the VM (session hosts) using Azure Site Recovery replication. Once the replicated VMs are ready, the agent will automatically attempt to path to the secondary region. This simplfys the disaster recovery process of configuring profile container paths. 
 
 For example, let's say your primary session host VMs are in the Central US region, but your profile container is in the Central US region for performance reasons.
 
